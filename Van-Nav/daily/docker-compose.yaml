@@ -1,0 +1,15 @@
+services:
+    nav:
+        image: rahn2029/van-nav:1.9.2
+        container_name: dailynav
+        volumes:
+            - ./data:/app/data
+        ports:
+            - 6412:6412
+        restart: unless-stopped
+        networks:
+            - bridge_network  # 显式指定使用桥接网络
+
+networks:
+  bridge_network:
+    driver: bridge  # 使用默认的桥接网络驱动

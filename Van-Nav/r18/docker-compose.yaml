@@ -1,0 +1,9 @@
+services:
+    nav:
+        image: rahn2029/van-nav:1.9.2
+        container_name: r18nav
+        volumes:
+            - ./data:/app/data
+        ports:
+            - 6413:6412
+        restart: unless-stopped

@@ -1,0 +1,1 @@
+2024/12/15 06:26:12 [warn] 292#292: *963 a client request body is buffered to a temporary file /tmp/nginx/body/4/25/0000000254, client: 172.70.114.174, server: wp.rahnto.click, request: "PUT /api/fs/put HTTP/2.0", host: "wp.rahnto.click", referrer: "https://wp.rahnto.click/root/docker"

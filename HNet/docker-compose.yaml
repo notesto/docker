@@ -1,0 +1,7 @@
+services:
+    hnetweb:
+        image: rahn2029/hnet-web:2.0
+        container_name: hnet
+        ports:
+            - 5120:56559
+        restart: unless-stopped

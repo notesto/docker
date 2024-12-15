@@ -1,0 +1,1 @@
+2024/12/15 07:07:02 [error] 352#352: *3332 open() "/data/world.rahnto.click/favicon.ico" failed (2: No such file or directory), client: 162.158.63.59, server: world.rahnto.click, request: "GET /favicon.ico HTTP/2.0", host: "world.rahnto.click", referrer: "https://world.rahnto.click/"

@@ -1,0 +1,9 @@
+services:
+    minimalist-web-notepad:
+        image: rahn2029/minimalist-web-notepad:1.0
+        container_name: notepad
+        volumes:
+            - ./data:/var/www/html/_tmp
+        ports:
+          - 8006:80
+        restart: unless-stopped
